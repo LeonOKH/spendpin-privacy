@@ -6,6 +6,10 @@
 
 Spendpin ("we", "our", "the app") is a personal expense tracker built for users in Malaysia. This policy explains what data the app handles, why, where it goes, and how to delete it.
 
+> **In the current Google Play version (1.0):** online accounts, AI features (§2.3) and crash reporting (§2.5) are switched off. Everything you enter and every captured notification stays on your phone, and no personal data is sent to us or to anyone else. The only network requests are for public exchange rates and the Bank Negara Malaysia OPR (§2.6). The sections below also describe those optional features so this policy stays accurate if a later version turns them on; we will update the date above when that happens.
+
+Spendpin is an independent app. It is **not affiliated with, endorsed by or connected to** Touch 'n Go, Maybank, CIMB, Grab, Shopee, Boost or any bank or e-wallet named in this policy; their names are used only to describe which notifications the app can read.
+
 ---
 
 ## 1. Who is the data controller
