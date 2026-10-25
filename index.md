@@ -1,12 +1,12 @@
 # Spendpin Privacy Policy
 
 **Effective date:** 2026-10-24
-**Last updated:** 2026-10-24
+**Last updated:** 2026-10-26
 **Contact:** jimsom27@gmail.com
 
 Spendpin ("we", "our", "the app") is a personal expense tracker built for users in Malaysia. This policy explains what data the app handles, why, where it goes, and how to delete it.
 
-> **In the current Google Play version (1.0):** online accounts, AI features (§2.3) and crash reporting (§2.5) are switched off. Everything you enter and every captured notification stays on your phone, and no personal data is sent to us or to anyone else. The only network requests are for public exchange rates and the Bank Negara Malaysia OPR (§2.6). The sections below also describe those optional features so this policy stays accurate if a later version turns them on; we will update the date above when that happens.
+> **In the current Google Play version (1.0):** online accounts, AI features (§2.3) and crash reporting (§2.5) are switched off. Everything you enter and every captured notification stays on your phone (and in your phone's own end-to-end encrypted Google backup, see §4); no personal data is sent to us or to anyone else. The only network requests are for public exchange rates and the Bank Negara Malaysia OPR (§2.6). The sections below also describe those optional features so this policy stays accurate if a later version turns them on; we will update the date above when that happens.
 
 Spendpin is an independent app. It is **not affiliated with, endorsed by or connected to** Touch 'n Go, Maybank, CIMB, Grab, Shopee, Boost or any bank or e-wallet named in this policy; their names are used only to describe which notifications the app can read.
 
@@ -80,7 +80,7 @@ To show exchange rates and the Bank Negara Malaysia OPR, the app requests public
 
 ## 4. Where your data is stored and who can see it
 
-- **On your device:** your financial data, preferences, pending captured items and the optional debug log are stored locally (SQLite and app-private storage). Android cloud backup of app data is disabled. Your financial records are **not** synced to a server.
+- **On your device:** your financial data, preferences, pending captured items and the optional debug log are stored locally (SQLite and app-private storage). Your financial records are **not** synced to our servers. They are included in your phone's own **Google backup** (Android Auto Backup) so they can be restored when you set up a new phone with the same Google account; that backup is end-to-end encrypted with your phone's screen lock, so neither Google nor we can read it, and it only runs if encryption is available. The notification debug log is never backed up. You can turn backup off in Android Settings → Google → Backup.
 - **Supabase:** only your account (email, hashed password, display name) when you create one.
 - **Google (Gemini API):** only the content described in §2.3, when those features are used.
 - **Sentry:** crash diagnostics as described in §2.5.
