@@ -6,7 +6,7 @@
 
 Spendpin ("we", "our", "the app") is a personal expense tracker built for users in Malaysia. This policy explains what data the app handles, why, where it goes, and how to delete it.
 
-> **In the current Google Play version (1.0):** online accounts, AI features (§2.3) and crash reporting (§2.5) are switched off. Everything you enter and every captured notification stays on your phone (and in your phone's own end-to-end encrypted Google backup, see §4); no personal data is sent to us or to anyone else. The only network requests are for public exchange rates and the Bank Negara Malaysia OPR (§2.6). The sections below also describe those optional features so this policy stays accurate if a later version turns them on; we will update the date above when that happens.
+> **In the current Google Play version (1.0):** online accounts, AI features (§2.3) and crash reporting (§2.5) are switched off. Everything you enter and every captured notification stays on your phone (and in your phone's own end-to-end encrypted Google backup, see §4); none of it is sent to us or to anyone else. The app shows ads from **Google AdMob**, which collects device and usage data to serve ads (§2.6a); AdMob never receives your expenses, amounts, notes or notification content. Other network requests are for public exchange rates and the Bank Negara Malaysia OPR (§2.6). The sections below also describe those optional features so this policy stays accurate if a later version turns them on; we will update the date above when that happens.
 
 Spendpin is an independent app. It is **not affiliated with, endorsed by or connected to** Touch 'n Go, Maybank, CIMB, Grab, Shopee, Boost or any bank or e-wallet named in this policy; their names are used only to describe which notifications the app can read.
 
@@ -58,10 +58,17 @@ If crash reporting is enabled in the build, crashes and handled errors are sent 
 ### 2.6 Other network requests
 To show exchange rates and the Bank Negara Malaysia OPR, the app requests public data from `open.er-api.com` and `api.bnm.gov.my`. These requests contain no personal data beyond what any web request carries (such as your IP address).
 
+### 2.6a Advertising (Google AdMob)
+Spendpin is free and shows a small number of ads served by **Google AdMob** (banners on some screens, and occasionally a full-screen ad when you leave a tool such as the loan calculator). To deliver and measure ads and prevent fraud, the AdMob SDK collects: your device's **advertising ID** and app set ID, **IP address** (from which a general location may be estimated), **interactions with ads and the app** (such as ad views and taps, app launches), and **diagnostic data** (such as crash logs and performance). This data goes to Google, which acts under its own policies: https://policies.google.com/technologies/ads.
+
+AdMob does **not** receive any of your financial records, captured notifications, notes or settings; ads are never shown on the notification-capture, Pending review or add-expense screens.
+
+You can reset or delete your advertising ID, or opt out of personalised ads, in Android **Settings → Google → Ads** (or Settings → Privacy → Ads).
+
 ### 2.7 What we do NOT collect
 - No contacts, location, calendar, SMS or call logs.
 - No bank passwords, PINs, OTPs or session tokens.
-- No advertising IDs and no ad networks.
+- No ad network other than Google AdMob (§2.6a); no data brokers.
 
 ---
 
@@ -84,11 +91,13 @@ To show exchange rates and the Bank Negara Malaysia OPR, the app requests public
 - **Supabase:** only your account (email, hashed password, display name) when you create one.
 - **Google (Gemini API):** only the content described in §2.3, when those features are used.
 - **Sentry:** crash diagnostics as described in §2.5.
-- **No one else.** We do not sell, rent, or share your data with advertisers or data brokers.
+- **Google (AdMob):** the device and usage data described in §2.6a, for advertising.
+- **No one else.** We do not sell your data, and your financial records are never shared with advertisers or data brokers.
 
 ### Sub-processors
 | Processor | Purpose | Privacy policy |
 |---|---|---|
+| Google LLC (AdMob) | Advertising | https://policies.google.com/technologies/ads |
 | Supabase, Inc. | Account authentication | https://supabase.com/privacy |
 | Functional Software Inc. (Sentry) | Crash diagnostics | https://sentry.io/privacy |
 | Google LLC (Gemini API) | AI parsing, receipt scan, category suggestion, insights | https://ai.google.dev/gemini-api/terms · https://policies.google.com/privacy |
