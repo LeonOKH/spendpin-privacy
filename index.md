@@ -2,7 +2,7 @@
 
 **Effective date:** 2026-10-24
 **Last updated:** 2026-10-26
-**Contact:** jimsom27@gmail.com
+**Contact:** leonapp2625@gmail.com
 
 Spendpin ("we", "our", "the app") is a personal expense tracker built for users in Malaysia. This policy explains what data the app handles, why, where it goes, and how to delete it.
 
@@ -14,7 +14,7 @@ Spendpin is an independent app. It is **not affiliated with, endorsed by or conn
 
 ## 1. Who is the data controller
 
-Spendpin is published by an individual developer based in Malaysia. For all data-protection questions, contact: **jimsom27@gmail.com**.
+Spendpin is published by an individual developer based in Malaysia. For all data-protection questions, contact: **leonapp2625@gmail.com**.
 
 This policy is written to align with both Google Play's User Data policy and the **Personal Data Protection Act 2010 (Malaysia)**.
 
@@ -118,7 +118,7 @@ You can reset or delete your advertising ID, or opt out of personalised ads, in 
 You can, at any time:
 - **Export** your expenses and income to CSV from Settings.
 - **Correct** any entry by editing it in the app.
-- **Delete your account:** Settings → Delete Account. This deletes your account on the server and signs you out. Data stored on your device is removed by clearing the app's storage or uninstalling the app. You can also email jimsom27@gmail.com from the address on the account.
+- **Delete your account:** Settings → Delete Account. This deletes your account on the server and signs you out. Data stored on your device is removed by clearing the app's storage or uninstalling the app. You can also email leonapp2625@gmail.com from the address on the account.
 - **Turn off notification capture:** Android Settings → Notifications → Notification access (device access) → switch Spendpin off. Turn off and clear the debug log on the Auto Capture screen.
 
 Under Malaysia's PDPA 2010, you also have the right to lodge a complaint with the Department of Personal Data Protection (https://www.pdp.gov.my).
@@ -127,7 +127,7 @@ Under Malaysia's PDPA 2010, you also have the right to lodge a complaint with th
 
 ## 7. Children
 
-Spendpin is not directed at children under 13. We do not knowingly collect data from children under 13. If you believe we have, contact jimsom27@gmail.com and we will delete it.
+Spendpin is not directed at children under 13. We do not knowingly collect data from children under 13. If you believe we have, contact leonapp2625@gmail.com and we will delete it.
 
 ---
 
@@ -139,6 +139,6 @@ If we make material changes we will update the "Last updated" date above.
 
 ## 9. Contact
 
-**jimsom27@gmail.com**
+**leonapp2625@gmail.com**
 
 We aim to respond to data requests within 7 business days.
