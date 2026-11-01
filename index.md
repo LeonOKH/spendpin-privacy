@@ -6,7 +6,7 @@
 
 Spendpin ("we", "our", "the app") is a personal expense tracker built for users in Malaysia. This policy explains what data the app handles, why, where it goes, and how to delete it.
 
-> **In the current Google Play version (1.0):** online accounts, AI features (§2.3) and crash reporting (§2.5) are switched off. Everything you enter and every captured notification stays on your phone (and in your phone's own end-to-end encrypted Google backup, see §4); none of it is sent to us or to anyone else. The app shows ads from **Google AdMob**, which collects device and usage data to serve ads (§2.6a); AdMob never receives your expenses, amounts, notes or notification content. Other network requests are for public exchange rates and the Bank Negara Malaysia OPR (§2.6). The sections below also describe those optional features so this policy stays accurate if a later version turns them on; we will update the date above when that happens.
+> **In the current Google Play version (1.0):** there are no accounts or logins, and AI features (§2.3) and crash reporting (§2.5) are switched off. Everything you enter and every captured notification stays on your phone (and in your phone's own end-to-end encrypted Google backup, see §4); none of it is sent to us or to anyone else. The app shows ads from **Google AdMob**, which collects device and usage data to serve ads (§2.6a); AdMob never receives your expenses, amounts, notes or notification content. Other network requests are for public exchange rates and the Bank Negara Malaysia OPR (§2.6). The sections below also describe those optional features so this policy stays accurate if a later version turns them on; we will update the date above when that happens.
 
 Spendpin is an independent app. It is **not affiliated with, endorsed by or connected to** Touch 'n Go, Maybank, CIMB, Grab, Shopee, Boost, Public Bank, Ryt Bank or any bank or e-wallet named in this policy; their names are used only to describe which notifications the app can read.
 
@@ -23,7 +23,7 @@ This policy is written to align with both Google Play's User Data policy and the
 ## 2. What data the app handles
 
 ### 2.1 Information you provide directly
-- **Account details (optional):** if you create an account, your email address, password and display name are handled by Supabase Auth. Passwords are hashed by Supabase; we never see the plaintext. You can instead use **Guest mode**, which needs no account.
+- **No account:** Spendpin has no sign-up or login. You use it without giving us a name, email address or password.
 - **Financial data you enter:** expenses, income, budgets, savings goals, debts, recurring bills, assets, liabilities, categories and notes. These are stored **only on your device** (see §4).
 - **Preferences:** currency, theme, language and similar settings, stored on your device.
 
@@ -39,8 +39,6 @@ If you agree to the in-app disclosure and then grant Notification Access, the ap
 - Ryt Bank (`my.rytbank.app`)
 
 Notifications from any other app are ignored. From a supported app's notification the app reads the title and text and extracts the **amount, merchant and time**. All processing happens **on your device**; notification content is **not uploaded** anywhere and is never included in crash reports. A detected payment is saved on your device as a *pending* item (amount, merchant, time and the notification text it came from) and becomes an expense only after **you confirm it** on the Pending screen. You can dismiss pending items at any time.
-
-**Debug capture log (off by default):** the Auto Capture screen has an optional diagnostic log that, when you switch it on, records the full notifications from the supported apps (title, text, posting time and whether they were recognised) to a file on your device, keeping at most the last 200 entries. It never leaves your device unless you tap **Share log** yourself, and you can clear it at any time.
 
 ### 2.3 AI-assisted features (optional)
 When an AI key is configured in the app build, these features send content over an encrypted connection to **Google (Gemini API)** to produce a result:
@@ -78,10 +76,8 @@ You can reset or delete your advertising ID, or opt out of personalised ads, in 
 
 | Data type | Purpose | Optional? |
 |---|---|---|
-| Email + password + display name | Account sign-in, password reset | Optional (Guest mode needs no account) |
 | Financial data you enter | Core app functionality, on-device | Required to use the feature |
 | Notification content (listed apps only) | Suggest expenses, on-device | Optional, off until you agree and grant access |
-| Debug capture log | Help fix capture for your phone, on-device | Optional, off by default |
 | AI feature content | Parse entries, scan receipts, suggest categories, insights | Optional, only when AI is configured and used |
 | Crash diagnostics | Find and fix crashes | Enabled only in builds with Sentry configured |
 
@@ -89,8 +85,7 @@ You can reset or delete your advertising ID, or opt out of personalised ads, in 
 
 ## 4. Where your data is stored and who can see it
 
-- **On your device:** your financial data, preferences, pending captured items and the optional debug log are stored locally (SQLite and app-private storage). Your financial records are **not** synced to our servers. They are included in your phone's own **Google backup** (Android Auto Backup) so they can be restored when you set up a new phone with the same Google account; that backup is end-to-end encrypted with your phone's screen lock, so neither Google nor we can read it, and it only runs if encryption is available. The notification debug log is never backed up. You can turn backup off in Android Settings → Google → Backup.
-- **Supabase:** only your account (email, hashed password, display name) when you create one.
+- **On your device:** your financial data, preferences and pending captured items are stored locally (SQLite and app-private storage). Your financial records are **not** synced to our servers. They are included in your phone's own **Google backup** (Android Auto Backup) so they can be restored when you set up a new phone with the same Google account; that backup is end-to-end encrypted with your phone's screen lock, so neither Google nor we can read it, and it only runs if encryption is available. You can turn backup off in Android Settings → Google → Backup.
 - **Google (Gemini API):** only the content described in §2.3, when those features are used.
 - **Sentry:** crash diagnostics as described in §2.5.
 - **Google (AdMob):** the device and usage data described in §2.6a, for advertising.
@@ -100,7 +95,6 @@ You can reset or delete your advertising ID, or opt out of personalised ads, in 
 | Processor | Purpose | Privacy policy |
 |---|---|---|
 | Google LLC (AdMob) | Advertising | https://policies.google.com/technologies/ads |
-| Supabase, Inc. | Account authentication | https://supabase.com/privacy |
 | Functional Software Inc. (Sentry) | Crash diagnostics | https://sentry.io/privacy |
 | Google LLC (Gemini API) | AI parsing, receipt scan, category suggestion, insights | https://ai.google.dev/gemini-api/terms · https://policies.google.com/privacy |
 
@@ -109,7 +103,6 @@ You can reset or delete your advertising ID, or opt out of personalised ads, in 
 ## 5. How long we keep your data
 
 - **On-device data:** until you delete it in the app, clear the app's storage, or uninstall the app.
-- **Account:** until you delete it (§6).
 - **Crash reports:** kept by Sentry according to its data-retention settings, then deleted.
 - **Gemini requests:** handled under Google's Gemini API terms.
 
@@ -120,8 +113,8 @@ You can reset or delete your advertising ID, or opt out of personalised ads, in 
 You can, at any time:
 - **Export** your expenses and income to CSV from Settings.
 - **Correct** any entry by editing it in the app.
-- **Delete your account:** Settings → Delete Account. This deletes your account on the server and signs you out. Data stored on your device is removed by clearing the app's storage or uninstalling the app. You can also email leonapp2625@gmail.com from the address on the account.
-- **Turn off notification capture:** Android Settings → Notifications → Notification access (device access) → switch Spendpin off. Turn off and clear the debug log on the Auto Capture screen.
+- **Delete your data:** Settings → **Delete My Data** erases everything Spendpin stores on your phone: expenses, income, budgets, goals, captured payments and settings. It cannot be undone, so export to CSV first if you want a copy. Uninstalling the app or clearing its storage also removes it. Data already in your phone's Google backup is removed under Google's backup rules, or by turning backup off.
+- **Turn off notification capture:** Android Settings → Notifications → Notification access (device access) → switch Spendpin off.
 
 Under Malaysia's PDPA 2010, you also have the right to lodge a complaint with the Department of Personal Data Protection (https://www.pdp.gov.my).
 
