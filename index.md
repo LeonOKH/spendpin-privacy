@@ -1,14 +1,14 @@
 # Spendpin Privacy Policy
 
 **Effective date:** 2026-10-24
-**Last updated:** 2026-10-26
+**Last updated:** 2026-11-02
 **Contact:** leonapp2625@gmail.com
 
 Spendpin ("we", "our", "the app") is a personal expense tracker built for users in Malaysia. This policy explains what data the app handles, why, where it goes, and how to delete it.
 
 > **In the current Google Play version (1.0):** online accounts, AI features (§2.3) and crash reporting (§2.5) are switched off. Everything you enter and every captured notification stays on your phone (and in your phone's own end-to-end encrypted Google backup, see §4); none of it is sent to us or to anyone else. The app shows ads from **Google AdMob**, which collects device and usage data to serve ads (§2.6a); AdMob never receives your expenses, amounts, notes or notification content. Other network requests are for public exchange rates and the Bank Negara Malaysia OPR (§2.6). The sections below also describe those optional features so this policy stays accurate if a later version turns them on; we will update the date above when that happens.
 
-Spendpin is an independent app. It is **not affiliated with, endorsed by or connected to** Touch 'n Go, Maybank, CIMB, Grab, Shopee, Boost or any bank or e-wallet named in this policy; their names are used only to describe which notifications the app can read.
+Spendpin is an independent app. It is **not affiliated with, endorsed by or connected to** Touch 'n Go, Maybank, CIMB, Grab, Shopee, Boost, Public Bank, Ryt Bank or any bank or e-wallet named in this policy; their names are used only to describe which notifications the app can read.
 
 ---
 
@@ -30,11 +30,13 @@ This policy is written to align with both Google Play's User Data policy and the
 ### 2.2 Notification content (Android only, opt-in)
 If you agree to the in-app disclosure and then grant Notification Access, the app reads notifications **only** from these payment apps, to suggest expenses:
 - TNG eWallet (`my.com.tngdigital.ewallet`)
-- MAE by Maybank2u (`com.maybank2u.life`)
+- MAE by Maybank2u (`com.maybank2u.life`; the older Maybank2u app `my.com.maybank2u.m2umobile` is also recognised)
 - CIMB OCTO (`com.cimb.cimbocto`; the older CIMB package id `com.cimbmalaysia` is also recognised)
 - Grab (`com.grabtaxi.passenger`)
 - Shopee / ShopeePay (`com.shopee.my`)
 - Boost (`my.com.myboost`)
+- MyPB by Public Bank (`com.pbb.mypb`)
+- Ryt Bank (`my.rytbank.app`)
 
 Notifications from any other app are ignored. From a supported app's notification the app reads the title and text and extracts the **amount, merchant and time**. All processing happens **on your device**; notification content is **not uploaded** anywhere and is never included in crash reports. A detected payment is saved on your device as a *pending* item (amount, merchant, time and the notification text it came from) and becomes an expense only after **you confirm it** on the Pending screen. You can dismiss pending items at any time.
 
