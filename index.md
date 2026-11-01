@@ -111,6 +111,7 @@ You can reset or delete your advertising ID, or opt out of personalised ads, in 
 ## 6. Your rights and choices
 
 You can, at any time:
+- **Back up and restore** everything (expenses, income, budgets, goals, debts, groups and captured payments) with Settings → **Back up everything** and **Restore from backup**. The backup is a file saved wherever you choose (for example Google Drive or Downloads); it is not sent to us. It holds your financial records, so keep it private.
 - **Export** your expenses and income to CSV from Settings.
 - **Correct** any entry by editing it in the app.
 - **Delete your data:** Settings → **Delete My Data** erases everything Spendpin stores on your phone: expenses, income, budgets, goals, captured payments and settings. It cannot be undone, so export to CSV first if you want a copy. Uninstalling the app or clearing its storage also removes it. Data already in your phone's Google backup is removed under Google's backup rules, or by turning backup off.
