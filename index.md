@@ -25,7 +25,8 @@ This policy is written to align with both Google Play's User Data policy and the
 ### 2.1 Information you provide directly
 - **No account:** Spendpin has no sign-up or login. You use it without giving us a name, email address or password.
 - **Financial data you enter:** expenses, income, budgets, savings goals, debts, recurring bills, assets, liabilities, categories and notes. These are stored **only on your device** (see §4).
-- **Preferences:** currency, theme, language and similar settings, stored on your device.
+- **Preferences:** currency, theme, colour, language and similar settings, stored on your device.
+- **Profile and goal pictures (optional):** a display name, a profile photo or emoji, and photos you add to savings goals. You choose each photo with your phone's photo picker, which gives the app only that one picture, not your gallery. The app keeps a small resized copy **only on your device** (and in a backup file if you make one); it is never uploaded.
 
 ### 2.2 Notification content (Android only, opt-in)
 If you agree to the in-app disclosure and then grant Notification Access, the app reads notifications **only** from these payment apps, to suggest expenses:
