@@ -6,7 +6,7 @@
 
 Spendpin ("we", "our", "the app") is a personal expense tracker built for users in Malaysia. This policy explains what data the app handles, why, where it goes, and how to delete it.
 
-> **In the current Google Play version (1.0):** there are no accounts or logins, and AI features (§2.3) and crash reporting (§2.5) are switched off. Everything you enter and every captured notification stays on your phone (and in your phone's own end-to-end encrypted Google backup, see §4); none of it is sent to us or to anyone else. The app shows ads from **Google AdMob**, which collects device and usage data to serve ads (§2.6a); AdMob never receives your expenses, amounts, notes or notification content. Other network requests are for public exchange rates and the Bank Negara Malaysia OPR (§2.6). The sections below also describe those optional features so this policy stays accurate if a later version turns them on; we will update the date above when that happens.
+> **In the current Google Play version (1.0):** there are no accounts or logins, crash reporting (§2.5) is switched off, and the in-app AI features (§2.3) stay off unless you add your own Google Gemini key. Everything you enter and every captured notification stays on your phone (and in your phone's own end-to-end encrypted Google backup, see §4); none of it is sent to us or to anyone else. The app shows ads from **Google AdMob**, which collects device and usage data to serve ads (§2.6a); AdMob never receives your expenses, amounts, notes or notification content. Other network requests are for public exchange rates and the Bank Negara Malaysia OPR (§2.6). The sections below also describe those optional features so this policy stays accurate if a later version turns them on; we will update the date above when that happens.
 
 Spendpin is an independent app. It is **not affiliated with, endorsed by or connected to** Touch 'n Go, Maybank, CIMB, Grab, Shopee, Boost, Public Bank, Ryt Bank or any bank or e-wallet named in this policy; their names are used only to describe which notifications the app can read.
 
@@ -42,13 +42,17 @@ If you agree to the in-app disclosure and then grant Notification Access, the ap
 Notifications from any other app are ignored. From a supported app's notification the app reads the title and text and extracts the **amount, merchant and time**. All processing happens **on your device**; notification content is **not uploaded** anywhere and is never included in crash reports. A detected payment is saved on your device as a *pending* item (amount, merchant, time and the notification text it came from) and becomes an expense only after **you confirm it** on the Pending screen. You can dismiss pending items at any time.
 
 ### 2.3 AI-assisted features (optional)
-When an AI key is configured in the app build, these features send content over an encrypted connection to **Google (Gemini API)** to produce a result:
+These features work only if **you add your own Google Gemini API key** (Settings → *Use your own Gemini*). The app has no AI key of its own. With your key, these features send content over an encrypted connection, directly from your phone to **Google (Gemini API)**, under your own key and Google's terms for it. We never receive your key or this content. On Google's free plan, Google may use what is sent to improve its products.
+
+Your key is stored on your phone encrypted with a key held in the Android Keystore, is never included in any backup, and is deleted when you tap *Remove key* or *Delete My Data*. It is sent only to Google, in a request header.
+
+With your key, these features send:
 - **Quick-add parsing:** the text you type or dictate when you choose to parse it with AI.
 - **Receipt scan:** the receipt image you choose to scan.
 - **Insights / AI coach:** when you open the Insights screen, summarised figures such as spending totals per category and transaction counts are sent to generate the coach summary; questions you type in the AI chat are sent with similar summaries.
 - **Category suggestion:** while you type an expense note or merchant, the text may be sent to Gemini to suggest a category, if no on-device rule or earlier suggestion already matches it.
 
-If no AI key is configured these features are disabled. Notification content is never sent to Gemini by the capture feature.
+Without your key these features are off. Notification content is never sent to Gemini: the capture feature does not use AI.
 
 ### 2.4 "Ask your own AI" (you choose to share)
 On the Insights screen you can tap **Ask your own AI**. Spendpin shows you the exact text first: a summary of the last 30 days (totals by category, your top shops, income and spending limit). Nothing is sent unless you tap **Open in AI app** or **Copy**. Spendpin itself sends nothing: the text goes only to the app you pick (for example ChatGPT or Gemini), under that app's own privacy policy and your own account there.
@@ -82,7 +86,7 @@ You can reset or delete your advertising ID, or opt out of personalised ads, in 
 |---|---|---|
 | Financial data you enter | Core app functionality, on-device | Required to use the feature |
 | Notification content (listed apps only) | Suggest expenses, on-device | Optional, off until you agree and grant access |
-| AI feature content | Parse entries, scan receipts, suggest categories, insights | Optional, only when AI is configured and used |
+| AI feature content | Parse entries, scan receipts, suggest categories, insights | Optional, only after you add your own Gemini key and use these features |
 | Crash diagnostics | Find and fix crashes | Enabled only in builds with Sentry configured |
 
 ---
