@@ -1,7 +1,7 @@
 # Spendpin Privacy Policy
 
 **Effective date:** 2026-10-24
-**Last updated:** 2026-11-02
+**Last updated:** 2026-11-03
 **Contact:** leonapp2625@gmail.com
 
 Spendpin ("we", "our", "the app") is a personal expense tracker built for users in Malaysia. This policy explains what data the app handles, why, where it goes, and how to delete it.
@@ -48,7 +48,7 @@ Your key is stored on your phone encrypted with a key held in the Android Keysto
 
 With your key, these features send:
 - **Quick-add parsing:** the text you type or dictate when you choose to parse it with AI.
-- **Receipt scan:** the receipt image you choose to scan.
+- **Receipt scan:** the receipt image you choose to scan. Without your key (or if Gemini cannot read it), the receipt is read on your phone by Google ML Kit text recognition instead, and the image is not uploaded. ML Kit itself sends Google basic diagnostics (device model, app version, error codes), not the image or its text.
 - **Insights / AI coach:** when you open the Insights screen, summarised figures such as spending totals per category and transaction counts are sent to generate the coach summary; questions you type in the AI chat are sent with similar summaries.
 - **Category suggestion:** while you type an expense note or merchant, the text may be sent to Gemini to suggest a category, if no on-device rule or earlier suggestion already matches it.
 
