@@ -50,6 +50,9 @@ When an AI key is configured in the app build, these features send content over 
 
 If no AI key is configured these features are disabled. Notification content is never sent to Gemini by the capture feature.
 
+### 2.4 "Ask your own AI" (you choose to share)
+On the Insights screen you can tap **Ask your own AI**. Spendpin shows you the exact text first: a summary of the last 30 days (totals by category, your top shops, income and spending limit). Nothing is sent unless you tap **Open in AI app** or **Copy**. Spendpin itself sends nothing: the text goes only to the app you pick (for example ChatGPT or Gemini), under that app's own privacy policy and your own account there.
+
 ### 2.4 Voice input
 Voice quick-add uses your phone's **system speech recogniser** (on most Android phones this is provided by Google). Spendpin receives only the resulting text. The app does not record or store audio and does not hold the microphone permission.
 
