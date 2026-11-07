@@ -29,7 +29,7 @@ Only to catch payment alerts the moment they arrive. Android keeps it running on
 
 ### Check it yourself
 1. **Permissions:** Settings → Apps → Spendpin → Permissions. Android itself shows this screen; an app cannot fake it. You will see only *Notifications*: no SMS, contacts, location, camera or microphone.
-2. **Every connection:** install the free app **PCAPdroid** from Google Play (no root needed) and use Spendpin for a while. It lists every server each app talks to. Spendpin connects only to Google (ads), `open.er-api.com` (exchange rates), `api.bnm.gov.my` (OPR), and `generativelanguage.googleapis.com` if you use AI with your own key.
+2. **Every connection:** install the free app **PCAPdroid** from Google Play (no root needed) and use Spendpin for a while. It lists every server each app talks to. Spendpin connects only to Google (ads), `open.er-api.com` (exchange rates), `api.bnm.gov.my` (OPR), `leonokh.github.io` (to check whether an update is required), and `generativelanguage.googleapis.com` if you use AI with your own key.
 3. **Airplane mode:** turn it on and use Spendpin as usual: add expenses, check budgets and reports. Everything still works, because your records live on your phone, not on a server.
 
 ### How do I stop it or delete everything?
@@ -63,7 +63,7 @@ Hanya untuk menangkap makluman pembayaran sebaik sahaja ia tiba. Android membiar
 
 ### Semak sendiri
 1. **Kebenaran:** Tetapan → Aplikasi → Spendpin → Kebenaran. Skrin ini ditunjukkan oleh Android sendiri; aplikasi tidak boleh memalsukannya. Anda hanya akan melihat *Pemberitahuan*: tiada SMS, kenalan, lokasi, kamera atau mikrofon.
-2. **Setiap sambungan:** pasang aplikasi percuma **PCAPdroid** dari Google Play (tidak perlu root) dan guna Spendpin seketika. Ia menyenaraikan setiap pelayan yang dihubungi oleh setiap aplikasi. Spendpin hanya menyambung ke Google (iklan), `open.er-api.com` (kadar pertukaran), `api.bnm.gov.my` (OPR), dan `generativelanguage.googleapis.com` jika anda guna AI dengan kunci anda sendiri.
+2. **Setiap sambungan:** pasang aplikasi percuma **PCAPdroid** dari Google Play (tidak perlu root) dan guna Spendpin seketika. Ia menyenaraikan setiap pelayan yang dihubungi oleh setiap aplikasi. Spendpin hanya menyambung ke Google (iklan), `open.er-api.com` (kadar pertukaran), `api.bnm.gov.my` (OPR), `leonokh.github.io` (untuk menyemak sama ada kemas kini diwajibkan), dan `generativelanguage.googleapis.com` jika anda guna AI dengan kunci anda sendiri.
 3. **Mod pesawat:** hidupkannya dan guna Spendpin seperti biasa: tambah perbelanjaan, semak bajet dan laporan. Semuanya tetap berfungsi, kerana rekod anda disimpan di telefon anda, bukan di pelayan.
 
 ### Bagaimana untuk menghentikan atau memadam semuanya?
@@ -97,7 +97,7 @@ Soalan: **leonapp2625@gmail.com**
 
 ### 自己检查
 1. **权限**：设置 → 应用 → Spendpin → 权限。这个页面由 Android 系统显示，应用无法伪造。你只会看到*通知*，没有短信、通讯录、位置、相机或麦克风。
-2. **所有连接**：从 Google Play 安装免费应用 **PCAPdroid**（不需要 root），然后使用 Spendpin 一段时间。它会列出每个应用连接的所有服务器。Spendpin 只连接 Google（广告）、`open.er-api.com`（汇率）、`api.bnm.gov.my`（OPR），以及你用自己的密钥使用 AI 时的 `generativelanguage.googleapis.com`。
+2. **所有连接**：从 Google Play 安装免费应用 **PCAPdroid**（不需要 root），然后使用 Spendpin 一段时间。它会列出每个应用连接的所有服务器。Spendpin 只连接 Google（广告）、`open.er-api.com`（汇率）、`api.bnm.gov.my`（OPR）、`leonokh.github.io`（检查是否必须更新），以及你用自己的密钥使用 AI 时的 `generativelanguage.googleapis.com`。
 3. **飞行模式**：开启后照常使用 Spendpin：记账、查看预算和报表。一切照常运作，因为你的记录存在手机里，不在服务器上。
 
 ### 怎样停止或删除所有数据？

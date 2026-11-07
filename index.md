@@ -1,7 +1,7 @@
 # Spendpin Privacy Policy
 
 **Effective date:** 2026-10-24
-**Last updated:** 2026-11-06
+**Last updated:** 2026-11-07
 **Contact:** leonapp2625@gmail.com
 
 **Short version and how to check it yourself:** [Is my data safe? (FAQ: English · Bahasa Melayu · 中文)](faq.html)
@@ -69,6 +69,8 @@ If crash reporting is enabled in the build, crashes and handled errors are sent 
 
 ### 2.6 Other network requests
 To show exchange rates and the Bank Negara Malaysia OPR, the app requests public data from `open.er-api.com` and `api.bnm.gov.my`. These requests contain no personal data beyond what any web request carries (such as your IP address).
+
+When it opens, the app also downloads a small public file from `leonokh.github.io` that says which app version is the oldest still supported, so it can ask you to update when an important fix is released. Nothing about you is sent in this request either.
 
 ### 2.6a Advertising (Google AdMob)
 Spendpin is free and shows a small number of ads served by **Google AdMob** (banners on some screens, and occasionally a full-screen ad when you leave a tool such as the loan calculator). To deliver and measure ads and prevent fraud, the AdMob SDK collects: your device's **advertising ID** and app set ID, **IP address** (from which a general location may be estimated), **interactions with ads and the app** (such as ad views and taps, app launches), and **diagnostic data** (such as crash logs and performance). This data goes to Google, which acts under its own policies: https://policies.google.com/technologies/ads.
