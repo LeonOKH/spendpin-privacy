@@ -1,7 +1,7 @@
 # Spendpin Privacy Policy
 
 **Effective date:** 2026-10-24
-**Last updated:** 2026-11-08
+**Last updated:** 2026-11-09
 **Contact:** leonapp2625@gmail.com
 
 **Short version and how to check it yourself:** [Is my data safe? (FAQ: English · Bahasa Melayu · 中文)](faq.html)
@@ -41,9 +41,11 @@ If you agree to the in-app disclosure and then grant Notification Access, the ap
 - MyPB by Public Bank (`com.pbb.mypb`)
 - Ryt Bank (`my.rytbank.app`)
 
-Notifications from any other app are ignored. From a supported app's notification the app reads the title and text and extracts the **amount, merchant and time**. All processing happens **on your device**; notification content is **not uploaded** anywhere and is never included in crash reports. A detected payment is saved on your device as a *pending* item (amount, merchant, time and the notification text it came from) and becomes an expense only after **you confirm it** on the Pending screen. You can dismiss pending items at any time.
+Notifications from any other app are ignored, except during **"Help add my bank"** (below). From a supported app's notification the app reads the title and text and extracts the **amount, merchant and time**. All processing happens **on your device**; notification content is **not uploaded** anywhere and is never included in crash reports. A detected payment is saved on your device as a *pending* item (amount, merchant, time and the notification text it came from) and becomes an expense only after **you confirm it** on the Pending screen. You can dismiss pending items at any time.
 
 While capture is on, the app also notes **on your device** when your phone loses its internet connection, so that when it is back after a while it can warn you that payment alerts sent meanwhile may not have arrived. Only the time the connection dropped is kept; nothing is sent anywhere.
+
+**"Help add my bank" (off unless you start it).** If your bank or e-wallet is not supported, you can start a 30-minute recording in Auto Capture. During those 30 minutes only, the app keeps notifications from other apps **that show a money amount**, so you can send us real examples and we can add your bank. Notifications that look like one-time codes, PINs or passwords are never kept. Long numbers (account, card and phone numbers) and email addresses are masked before anything is stored. The examples stay **on your device**; you can review and delete each one, and nothing is sent unless you tap **Send**, which opens your own email app with the text shown to you before you send it. Recording stops by itself after 30 minutes, and you can delete the examples at any time.
 
 ### 2.3 AI-assisted features (optional)
 These features work only if **you add your own Google Gemini API key** (Settings → *Use your own Gemini*). The app has no AI key of its own. With your key, these features send content over an encrypted connection, directly from your phone to **Google (Gemini API)**, under your own key and Google's terms for it. We never receive your key or this content. On Google's free plan, Google may use what is sent to improve its products, and Google's human reviewers may read it (Google says it first disconnects it from your account and key); Google asks that sensitive or personal information not be sent on the free plan, and the free plan is for ages 18 and over. Use these features only for content you are comfortable sharing on those terms.
