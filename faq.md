@@ -16,8 +16,6 @@ The only copy outside your phone is your phone's own Google backup, which Spendp
 ### Can Spendpin read my WhatsApp or other chats?
 To read payment alerts, Android's "notification access" shows Spendpin every new notification. Spendpin ignores any notification that is not from these payment apps the moment it arrives, without reading or saving it: TNG eWallet, MAE (Maybank), CIMB OCTO, Grab, ShopeePay, Boost, MyPB (Public Bank) and Ryt Bank.
 
-The only exception is **Help add my bank**, which is off unless you start it yourself. For 30 minutes it keeps alerts that show a money amount (never codes or PINs), hides account and phone numbers, and keeps them on your phone. Nothing is sent unless you choose to email them to us.
-
 ### Can Spendpin take my money?
 No. Spendpin cannot log in to your e-wallet or bank, cannot tap buttons in other apps, and cannot read your SMS or OTP codes. It does not have those permissions, and Android would show them if it did (see check 1 below).
 
@@ -52,8 +50,6 @@ Satu-satunya salinan di luar telefon ialah sandaran Google telefon anda sendiri,
 ### Bolehkah Spendpin membaca WhatsApp atau sembang lain?
 Untuk membaca makluman pembayaran, "akses pemberitahuan" Android menunjukkan setiap pemberitahuan baharu kepada Spendpin. Spendpin mengabaikan pemberitahuan yang bukan daripada aplikasi pembayaran ini sebaik sahaja ia tiba, tanpa membaca atau menyimpannya: TNG eWallet, MAE (Maybank), CIMB OCTO, Grab, ShopeePay, Boost, MyPB (Public Bank) dan Ryt Bank.
 
-Satu-satunya pengecualian ialah **Bantu tambah bank anda**, yang dimatikan kecuali anda sendiri memulakannya. Selama 30 minit ia menyimpan makluman yang menunjukkan jumlah wang (tidak pernah kod atau PIN), menyembunyikan nombor akaun dan telefon, dan menyimpannya di telefon anda. Tiada apa dihantar melainkan anda memilih untuk menghantarnya kepada kami melalui e-mel.
-
 ### Bolehkah Spendpin mengambil wang saya?
 Tidak. Spendpin tidak boleh log masuk ke e-dompet atau bank anda, tidak boleh menekan butang dalam aplikasi lain, dan tidak boleh membaca SMS atau kod OTP anda. Ia tiada kebenaran itu, dan Android akan menunjukkannya jika ada (lihat semakan 1 di bawah).
 
@@ -87,8 +83,6 @@ Soalan: **leonapp2625@gmail.com**
 
 ### Spendpin 能看我的 WhatsApp 或其他聊天吗？
 为了读取付款通知，Android 的“通知使用权”会把每条新通知都交给 Spendpin。凡不是来自以下付款应用的通知，Spendpin 一收到就忽略，不读取也不保存：TNG eWallet、MAE（Maybank）、CIMB OCTO、Grab、ShopeePay、Boost、MyPB（Public Bank）和 Ryt Bank。
-
-唯一的例外是**帮忙加入你的银行**，只有你自己开启才会运行。它在 30 分钟内只保留显示金额的通知（绝不保留验证码或 PIN），自动隐藏账号和电话号码，并只存在你的手机里。除非你选择用电邮发给我们，否则什么都不会发送。
 
 ### Spendpin 能拿走我的钱吗？
 不能。Spendpin 无法登录你的电子钱包或银行，无法点击其他应用里的按钮，也无法读取你的短信或 OTP 验证码。它没有这些权限；如果有，Android 会显示出来（见下面的检查 1）。
